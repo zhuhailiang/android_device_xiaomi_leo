@@ -190,7 +190,7 @@ TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
  
 # MK Hardware
-BOARD_USES_MK_HARDWARE = true
+BOARD_USES_MOKEE_HARDWARE = true
 BOARD_HARDWARE_CLASS := device/xiaomi/leo/mkhw
 
 # Wifi
