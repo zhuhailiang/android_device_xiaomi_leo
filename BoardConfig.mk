@@ -188,6 +188,10 @@ TARGET_RIL_VARIANT := caf
 
 # Added to indicate that protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := true
+ 
+# MK Hardware
+BOARD_USES_MK_HARDWARE = true
+BOARD_HARDWARE_CLASS := device/xiaomi/leo/mkhw
 
 # Wifi
 BOARD_HAS_QCOM_WLAN             := true
